@@ -32,12 +32,13 @@ body{
   margin-bottom: 12px;
 }
 .container{
-  transform-style: preserve-3d;
   z-index: 19;
+  height: 500px;
   position: relative;
   width: 373px;
-  height: 664px;
   margin: 0 auto;
+  transform: translate(0,14%);
+  transform-style: preserve-3d;
 }
 .content{
   position: absolute;
